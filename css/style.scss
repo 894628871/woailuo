@@ -1,0 +1,148 @@
+body{
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.header{
+  font-size: .14rem;
+  height: .44rem;
+  line-height: .44rem;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  background: #F02C2C;
+  color: #fff;
+  p{
+    flex:1;
+    font-size: .16rem;
+    text-align: center;
+    font-weight: bolder;
+  }
+  i{
+    margin-right: .1rem;
+    margin-top: .15rem;
+  }
+}
+.content{
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  .banner{
+    .swiper-container{
+      .swiper-wrapper{
+        img{
+          width: 100%;
+          height: .83rem;
+        }
+      }
+    }
+  }
+  .title{
+    display: flex;
+    font-size: .14rem;
+    line-height: .44rem;
+    height: .44rem;
+    border-bottom: 1px solid #ccc;
+    span:nth-child(1){
+      margin-top:.16rem;
+      display:block;
+      height: .11rem;
+      width: .05rem;
+      background: #F02C2C;
+      margin-left: .1rem;
+      margin-right: .1rem;
+    }
+  }
+  .icons{
+    margin-top: .1rem;
+    .product{
+      display: flex;
+      border-bottom: 1px solid #ccc;
+      li{
+        flex:1;
+        text-align: center;
+        img{
+          width: .3rem;
+          height: .3rem;
+        }
+        span{
+          display: block;
+          margin-top: .13rem;
+          margin-bottom: .1rem;
+        }
+      }
+      li:nth-child(3){
+        border-right:1px solid #ccc;
+      }
+    }
+  }
+  .icons_one{
+    margin-top: .1rem;
+    border-bottom: 1px solid #ccc;
+    .product_one{
+      display: flex;
+      li{
+        width: 25%;
+        text-align: center;
+        img{
+          width: .3rem;
+          height: .3rem;
+        }
+        span{
+          display: block;
+          margin-top: .13rem;
+          margin-bottom: .1rem;
+        }
+      }
+      li:nth-child(2){
+        border-right: 1px solid #ccc;
+      }
+    }
+  }
+  .bottom{
+    .search{
+      display: flex;
+      margin-top: .1rem;
+      li{
+        width: 25%;
+        text-align: center;
+        img{
+          width: .3rem;
+          height: .3rem;
+        }
+        span{
+          display: block;
+          margin-top: .13rem;
+          margin-bottom: .1rem;
+        }
+      }
+      li:nth-child(2){
+         border-right: 1px solid #ccc;
+      }
+    }
+  }
+}
+
+
+.footer{
+  height: .44rem;
+  border-top: 1px solid #ccc;
+  .nav{
+    display: flex;
+    margin-top: .05rem;
+    li{
+      flex:1;
+      text-align: center;
+       img{
+          width: .16rem;
+          height: .16rem;
+        }
+        span{
+          display: block;
+        }
+    }
+  }
+}
